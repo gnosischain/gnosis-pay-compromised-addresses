@@ -25,17 +25,20 @@ Destinations that received drained funds. **Do not send funds to these — funds
 0xe43f519f6595b89743235b90ce910b9b85b39a15
 0x0000000000004f3d8aaf9175fd824cb00ad4bf80
 0x7503fe3cd8320c93b116d4a64aceeb2dd8be7ab8
+0x463d9721047cb88149ef97421cf35a2e86fe5be4
 ```
+
+Also available as [`data/attacker_addresses.csv`](data/attacker_addresses.csv).
 
 ## 🔒 Compromised Safes
 
-Safes taken over and drained during the incident. They previously belonged to
+Safes affected by the incident — believed compromised and at risk. They previously belonged to
 legitimate users and organizations and **are now believed to be controlled by an
 attacker** — so they are the priority for wallet warnings, since users may have
 them saved as contacts.
 
-→ Full data: [`data/drained_by_attacker.csv`](data/drained_by_attacker.csv) —
-one row per transfer out of a compromised Safe (**8,572** Safes in total).
+→ **Address list (47,377 Safes):** [`data/joined_unique_safes.csv`](data/joined_unique_safes.csv)
+— one address per line, ready for ingestion.
 
 ---
 
