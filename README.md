@@ -37,7 +37,7 @@ legitimate users and organizations and **are now believed to be controlled by an
 attacker** — so they are the priority for wallet warnings, since users may have
 them saved as contacts.
 
-→ **Address list (47,377 Safes):** [`data/joined_unique_safes.csv`](data/joined_unique_safes.csv)
+→ **Address list (50,444 Safes):** [`data/joined_unique_safes.csv`](data/joined_unique_safes.csv)
 — one address per line, ready for ingestion.
 
 ---
